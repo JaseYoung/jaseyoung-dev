@@ -1,0 +1,10 @@
+.home {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .home {
+    background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 100%);
+  }
+}
