@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://jaseyoung.github.io/jaseyoung-dev",
+  "homepage": "https://jaseyoung.dev",
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
     "gh-pages": "^6.3.0",

@@ -1,28 +1,13 @@
-import styles from './Experience.module.css'
+import styles from "./Experience.module.css";
 
 const Experience = () => {
   const experiences = [
     {
       company: "LEGO Group",
-      role: "Engineering Manager",
+      role: "Senior Engineering Manager",
       period: "Current",
-      achievements: [
-        "Leading digital transformation initiatives",
-        "Overseeing responsive shop redesign with decoupled architecture",
-        "Managing cross-functional engineering teams"
-      ]
     },
-    {
-      company: "Telegraph Media Group",
-      role: "Senior Software Engineer",
-      period: "Previous",
-      achievements: [
-        "Developed digital platform solutions",
-        "Implemented test automation reducing lead times from 12 to 3 months",
-        "Contributed to major platform improvements"
-      ]
-    }
-  ]
+  ];
 
   return (
     <section className={styles.experience} id="experience">
@@ -38,11 +23,6 @@ const Experience = () => {
                   <span className={styles.period}>{exp.period}</span>
                 </div>
               </div>
-              <ul className={styles.achievements}>
-                {exp.achievements.map((achievement, i) => (
-                  <li key={i}>{achievement}</li>
-                ))}
-              </ul>
             </div>
           ))}
         </div>
@@ -55,7 +35,7 @@ const Experience = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

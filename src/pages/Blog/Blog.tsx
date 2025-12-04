@@ -1,5 +1,5 @@
-import Navigation from '../../components/Navigation/Navigation'
-import styles from './Blog.module.css'
+import Navigation from "../../components/Navigation/Navigation";
+import styles from "./Blog.module.css";
 
 const Blog = () => {
   return (
@@ -15,7 +15,7 @@ const Blog = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Blog
+export default Blog;

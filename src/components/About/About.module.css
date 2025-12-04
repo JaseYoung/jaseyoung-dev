@@ -1,7 +1,6 @@
 .about {
   padding: 6rem 2rem;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
+  background-color: #f7fafc;
 }
 
 .container {
@@ -14,7 +13,7 @@
   font-weight: 700;
   text-align: center;
   margin-bottom: 4rem;
-  color: #2d3748;
+  color: #1a202c;
 }
 
 .content {
@@ -27,7 +26,7 @@
 .text p {
   font-size: 1.1rem;
   line-height: 1.7;
-  color: #4a5568;
+  color: #2d3748;
   margin-bottom: 1.5rem;
 }
 
@@ -35,7 +34,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: #2d3748;
+  color: #1a202c;
 }
 
 .skillGrid {
@@ -84,18 +83,18 @@
 
 @media (prefers-color-scheme: dark) {
   .about {
-    background: rgba(26, 32, 44, 0.8);
+    background-color: #2d3748;
   }
-  
+
   .title {
-    color: #e2e8f0;
+    color: #f7fafc;
   }
-  
+
   .text p {
-    color: #cbd5e0;
-  }
-  
-  .skills h3 {
     color: #e2e8f0;
+  }
+
+  .skills h3 {
+    color: #f7fafc;
   }
 }

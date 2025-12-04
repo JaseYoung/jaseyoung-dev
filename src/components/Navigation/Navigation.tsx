@@ -24,6 +24,14 @@ const Navigation = () => {
             Blog
           </Link>
           <a 
+            href="https://github.com/JaseYoung" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={styles.link}
+          >
+            GitHub
+          </a>
+          <a 
             href="https://www.linkedin.com/in/jaseyoung/" 
             target="_blank" 
             rel="noopener noreferrer"

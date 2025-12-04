@@ -1,7 +1,6 @@
 .contact {
   padding: 6rem 2rem;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
+  background-color: #f7fafc;
 }
 
 .container {
@@ -14,12 +13,12 @@
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #2d3748;
+  color: #1a202c;
 }
 
 .subtitle {
   font-size: 1.25rem;
-  color: #718096;
+  color: #4a5568;
   margin-bottom: 4rem;
   max-width: 600px;
   margin-left: auto;
@@ -27,10 +26,8 @@
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 4rem;
-  align-items: start;
+  align-items: center;
 }
 
 .info {
@@ -83,7 +80,7 @@
 .cta p {
   font-size: 1.1rem;
   line-height: 1.6;
-  color: #4a5568;
+  color: #2d3748;
   margin-bottom: 2rem;
 }
 
@@ -108,26 +105,26 @@
   .contact {
     padding: 4rem 1rem;
   }
-  
+
   .title {
     font-size: 2rem;
   }
-  
+
   .subtitle {
     font-size: 1rem;
     margin-bottom: 3rem;
   }
-  
+
   .content {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
-  
+
   .card {
     padding: 1.5rem;
     text-align: center;
   }
-  
+
   .cta p {
     font-size: 1rem;
   }
@@ -135,39 +132,39 @@
 
 @media (prefers-color-scheme: dark) {
   .contact {
-    background: rgba(26, 32, 44, 0.8);
+    background-color: #2d3748;
   }
-  
+
   .title {
-    color: #e2e8f0;
+    color: #f7fafc;
   }
-  
+
   .subtitle {
-    color: #a0aec0;
-  }
-  
-  .card {
-    background: rgba(26, 32, 44, 0.9);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-  }
-  
-  .card h3 {
-    color: #e2e8f0;
-  }
-  
-  .card p {
     color: #cbd5e0;
   }
-  
+
+  .card {
+    background-color: #1a202c;
+    border: 1px solid #4a5568;
+  }
+
+  .card h3 {
+    color: #f7fafc;
+  }
+
+  .card p {
+    color: #e2e8f0;
+  }
+
   .link {
     color: #63b3ed;
   }
-  
+
   .link:hover {
     color: #4299e1;
   }
-  
+
   .cta p {
-    color: #cbd5e0;
+    color: #e2e8f0;
   }
 }
